@@ -33,6 +33,7 @@ app.post('/webhook', function (req, res) {
     res.sendStatus(200);
 });
 
+
 generic function sending messages
 function sendMessage(recipientId, message) {
     request({
